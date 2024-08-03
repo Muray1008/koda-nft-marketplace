@@ -8,9 +8,7 @@ Made with NodeJS, Hardhat, Solidity, ReactJS, NextJS and Vercel.
 
 ## Demo
 
-![Demo](https://github.com/Markkop/nft-marketplace/blob/main/demo.gif)
-
-Checkout the live demo: https://nft-marketplace-markkop.vercel.app/
+Checkout the live demo: https://kodadot.xyz/
 
 ---
 
@@ -32,7 +30,7 @@ There are only two pages to view market's NFTs:
 Shows all NFTs that are available to be bought.  
 This page will show NFTs even if the user doesn't have the [Metamask](https://metamask.io/) extension or isn't connected to the dapp.
 
-![NFTs available](https://user-images.githubusercontent.com/16388408/151682517-6c0d89eb-80e6-4eeb-a6b0-6d584cdca5a3.png)  
+![NFTs available](./public/koda.png)  
 _NFTs available_
 
 ---
@@ -44,7 +42,6 @@ Here you keep track of NFT's you've created and check for how much they've been 
 You can also list your current owned NFTs or cancel existing ones.  
 To view this page, you must have Metamask installed and have it connected to Polygon's Testnet network.
 
-![Created and owned NFTs](https://user-images.githubusercontent.com/16388408/151682482-9db61934-bf17-4ea7-bd09-8c3ee5878f13.png)  
 _Created and owned NFTs_
 
 ---
@@ -53,42 +50,36 @@ _Created and owned NFTs_
 
 If the Metamask extension is not detected on "My NFTs" page, a message with a **download button** will be prompted to the user.
 
-![Download metamask message and buttons](https://user-images.githubusercontent.com/16388408/151679982-16116556-c354-44d0-93dc-468de64194fa.png)
 _Download metamask message and buttons_
 
 ---
 
 If the user has the extension, but is not connected, a message and a connect button will be shown.
 
-![Connect wallet message and button](https://user-images.githubusercontent.com/16388408/151680390-1e7440f7-4774-4b15-acfe-a2906f914fd2.png)  
 _Connect wallet message and button_
 
 ---
 
 If the Polygon's Testnet network is not detected, a message and an **ADD/CHANGE network button** will be available.
 
-![Add/Change Network message and button](https://user-images.githubusercontent.com/16388408/151680408-68255aa6-fee3-49b9-b8f2-36b0b62b406d.png)  
 _Add/Change Network message and button_
 
 ---
 
 If the connected account is low on balance of Matic tokens, a message with a faucet link is provided.
 
-![A low on balance message with a faucet link](https://user-images.githubusercontent.com/16388408/151680555-a837c767-ae42-4826-8417-d46b78b68742.png)  
 _A low on balance message with a faucet link_
 
 ---
 
 When **changing account or network**, the page will refresh updating only the affected components.
 
-![Components update on account change](https://user-images.githubusercontent.com/16388408/151680788-ab141ef4-1168-4a32-bd28-2530743c3097.gif)  
 _Components update on account change_
 
 ---
 
 When performing an action, a loading feedback is shown and the card updates to its new state automatically.
 
-![Buying an NFT and its feedbacks](https://user-images.githubusercontent.com/16388408/151680863-c03ede64-ec7b-403d-9a35-e7b3ba76220e.gif)  
 _Buying an NFT and its feedbacks_
 
 # Easy Deployment
